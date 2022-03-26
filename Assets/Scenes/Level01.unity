@@ -216,7 +216,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &106318722
@@ -18158,11 +18158,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180698, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: jumpForce
-      value: 142
+      value: 145
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180698, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: moveSpeed
-      value: 120
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180699, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: healthbar
