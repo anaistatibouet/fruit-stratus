@@ -32,9 +32,10 @@ public class PlayerHealth : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, bool ignoreInvincible)
     {
-        if (!isInvicible)
+        Debug.Log(ignoreInvincible);
+        if (!isInvicible || ignoreInvincible)
         {
             currentHealth -= damage;
             healthbar.SetHealth(currentHealth);

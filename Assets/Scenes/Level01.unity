@@ -6707,12 +6707,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6868,7 +6868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 528314936}
-  timeOffset: 0.2
+  timeOffset: 0.3
   postOffset: {x: 1.9, y: 0.8, z: -10}
 --- !u!1 &884403885
 GameObject:
@@ -7043,7 +7043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 512927579184456509, guid: b0bc58424d2c6bc4f9e60096fa6458c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.12
+      value: -1.58
       objectReference: {fileID: 0}
     - target: {fileID: 512927579184456509, guid: b0bc58424d2c6bc4f9e60096fa6458c3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18870,11 +18870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180698, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: jumpForce
-      value: 145
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180698, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: moveSpeed
-      value: 140
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2229366876902180699, guid: 94916f46e54ce43b589901203c5adfe6, type: 3}
       propertyPath: healthbar
