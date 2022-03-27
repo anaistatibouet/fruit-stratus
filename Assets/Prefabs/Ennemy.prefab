@@ -248,7 +248,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 4308827472377688441}
   - {fileID: 4308827471792493328}
-  damageOnCollision: 10
+  damageOnCollision: 25
 --- !u!1 &4308827472377688440
 GameObject:
   m_ObjectHideFlags: 0

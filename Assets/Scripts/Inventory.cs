@@ -21,4 +21,9 @@ public class Inventory : MonoBehaviour
         fruitCount += countItem;
         fruitCountText.text = fruitCount.ToString();
     }
+
+    public void ResetFruitCount(){
+        fruitCount = 0;
+        fruitCountText.text = fruitCount.ToString();
+    }
 }

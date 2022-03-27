@@ -1,7 +1,8 @@
 using UnityEngine;
 
 public class ObstacleDamages : MonoBehaviour
-{    public int damageOnCollision = 10;
+{
+    public int damageOnCollision = 10;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
