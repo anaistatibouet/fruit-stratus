@@ -133,3 +133,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 8134427418540593070}
+  fruitValue: 1
+  healing: 0
