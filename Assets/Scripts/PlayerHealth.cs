@@ -50,6 +50,17 @@ public class PlayerHealth : MonoBehaviour
             }
         }
     }
+    public void RestoreHealth(int health)
+    {
+        if(currentHealth + health > maxHealth) {
+            currentHealth = maxHealth;
+        } 
+        else 
+        {
+            currentHealth += health;
+        }
+        healthbar.SetHealth(currentHealth);
+    }
 
     public void Die()
     {
